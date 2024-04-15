@@ -15,7 +15,7 @@ export const ShowSkills = () => {
             className="flex justify-center items-center h-[90vh] md:h-[78vh]"
           >
             <div className="text-center w-[90%] md:w-[65%] ">
-              <h1 className="font-primary text-[45px] pb-[5rem]">
+              <h1 className="font-primary text-[30px] md:text-[45px] pb-3   md:pb-[5rem]">
                 Habilidades
               </h1>
               <h2 className="font-secondary text-[35px] py-5">Front-end</h2>

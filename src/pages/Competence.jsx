@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 export const Competence = () => {
   return (
     <section
-      className="w-full min-h-[85vh] md:min-h-[78vh]  flex  items-center "
+      className="w-full min-h-[85vh] md:min-h-[78vh] flex items-center "
       id="Habilidades"
     >
       <div className=" flex w-full justify-center gap-10 items-center mx-auto lg:h-[100vh]  ">
@@ -46,14 +46,14 @@ export const Competence = () => {
             className="flex-1 px-2 md:px-0 "
           >
             <div>
-              <h2 className="h2 text-center text-accent font-primary text-[30px] lg:hidden">
+              <h2 className="h2 text-center text-accent font-primary text-[30px] leading-[0.1rem] lg:hidden">
                 Experiencia
               </h2>
               {experiencia.map((service, index) => {
                 const { name, description, empresa } = service;
                 return (
                   <div
-                    className="border-b border-white/20 w-full py-5 text-center lg:text-left lg:justify-between lg:mb-[48px] lg:pb-10 flex flex-col lg:flex-row md:items-center md:gap-y-5 "
+                    className="border-b  border-white/20 w-full py-2   md:py-5 text-center lg:text-left lg:justify-between lg:mb-[48px] lg:pb-10 flex flex-col lg:flex-row md:items-center md:gap-y-5 "
                     key={index}
                   >
                     <div>
@@ -67,7 +67,7 @@ export const Competence = () => {
                     <div className=" flex  justify-center items-center lg:items-start ">
                       <p
                         href="#"
-                        className="text-gradient  lg:mt-5 lg:text-right text-[20px] lg:w-[150px]"
+                        className="text-gradient mt-2 lg:mt-5 lg:text-right text-[20px] lg:w-[150px]"
                       >
                         {empresa}
                       </p>

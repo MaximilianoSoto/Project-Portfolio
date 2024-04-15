@@ -50,11 +50,6 @@
   transition: all 1s;
 }
 
-.logo-btn {
-  width: 100%;
-  font-size: 2.5rem;
-}
-
 .logo-btn:hover {
   scale: 120%;
   transition: all 300ms;

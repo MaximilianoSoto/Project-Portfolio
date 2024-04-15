@@ -18,7 +18,7 @@ import { SVG } from "../assets/SVG";
 export const Projects = () => {
   return (
     <section id="Projects" className=" min-h-[85vh] md:min-h-[78vh]   ">
-      <div className="w-[90%] p-2 pt-2 md:p-0  h-screen md:w-[65%] md:pt-[10%] mx-auto  ">
+      <div className="w-[90%] p-2  pt-[20%]  md:p-0  h-screen md:w-[65%] md:pt-[10%] mx-auto  ">
         <motion.div
           variants={fadeIn("down", 0.3)}
           initial="hidden"
@@ -58,11 +58,11 @@ export const Projects = () => {
                           src={item.preview}
                         />
                       </header>
-                      <main className=" h-[220px]  md:h-[250px]  ">
-                        <h1 className="text-[25px]   lg:text-[30px] h-[70px] p-2 mt-3 font-primary leading-8 font-semibold text-accent  ">
+                      <main className=" h-[200px] md:h-[250px]  ">
+                        <h1 className="text-[20px]   lg:text-[30px]  p-2 mt-3 font-primary leading-8 font-semibold text-accent  ">
                           {item.titulo}
                         </h1>
-                        <p className=" leading-[1.2rem] lg:leading-[2rem]  p-2 h-[200px] text-[20px]  lg:text-[25px] mt-2 font-secondary text-white">
+                        <p className=" leading-[1.2rem] lg:leading-[2rem]  p-2 h-[200px] text-[17px]  lg:text-[25px] mt-2 font-secondary text-white">
                           {item.descripcion}
                         </p>
                       </main>
@@ -72,7 +72,7 @@ export const Projects = () => {
                             <TecnologiesComponent key={item} item={item} />
                           ))}
                         </div>
-                        <div className="mt-4 mx-auto">
+                        <div className="mt-10  md:mt-4 mx-auto">
                           <div className="flex gap-1  md:gap-5 ">
                             <Button className="flex items-center btn  ">
                               <a

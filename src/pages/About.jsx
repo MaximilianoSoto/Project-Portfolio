@@ -71,25 +71,25 @@ export const About = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex gap-x-9 max-w-max mx-auto lg:mx-0"
+              className="flex gap-x-5   md:gap-x-9 max-w-max mx-auto lg:mx-0"
             >
               <a
                 className="hover:text-accent"
                 href="https://github.com/MaximilianoSoto"
               >
-                <FaGithub className="logo-btn " />
+                <FaGithub className=" text-[30px] md:text-[2.5rem] " />
               </a>
               <a
                 className="hover:text-accent"
                 href="https://www.linkedin.com/in/maximiliano-soto-0116271b2/"
               >
-                <FaLinkedin className="logo-btn" />
+                <FaLinkedin className="text-[30px] md:text-[2.5rem]" />
               </a>
               <a
                 className="hover:text-accent"
                 href="mailto:maximiliano.soto.guardia99@gmail.com"
               >
-                <FaGofore className="logo-btn" />
+                <FaGofore className="text-[30px] md:text-[2.5rem]" />
               </a>
             </motion.div>
           </div>
