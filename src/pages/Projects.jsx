@@ -18,7 +18,7 @@ import { SVG } from "../assets/SVG";
 export const Projects = () => {
   return (
     <section id="Projects" className=" min-h-[85vh] md:min-h-[78vh]   ">
-      <div className="w-[90%] p-2  pt-[20%]  md:p-0  h-screen md:w-[65%] md:pt-[10%] mx-auto  ">
+      <div className="w-[90%] p-2  pt-[20%]  md:p-0  h-screen md:w-[65%] md:pt-[5%] mx-auto  ">
         <motion.div
           variants={fadeIn("down", 0.3)}
           initial="hidden"
@@ -50,7 +50,7 @@ export const Projects = () => {
               {ProjectsList &&
                 ProjectsList.map((item) => (
                   <SwiperSlide key={item.titulo}>
-                    <article className="mb-12   md:mb-16 flex  flex-col mx-auto  lg:h-[50vh]  bg-purple-900/70 border-4 rounded-lg border-accent/60 p-3">
+                    <article className="mb-12   md:mb-16 flex  flex-col mx-auto  h-[50vh] md:h-[60vh]  bg-purple-900/70 border-4 rounded-lg border-accent/60 p-3">
                       <header className="h-[20vh]">
                         <img
                           className="w-full h-[20vh] rounded-lg"

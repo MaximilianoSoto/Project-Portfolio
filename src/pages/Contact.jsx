@@ -40,7 +40,7 @@ export const Contact = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className=" border border-accent w-[60%] h-[50vh]  md:w-[45%]  rounded-2xl  md:py-[20px] shadow-lg shadow-accent"
+            className=" border border-accent w-[60%] h-[50vh]  md:w-[45%]  rounded-2xl  md:py-[20px] shadow-xl"
           >
             <article className="flex flex-col items-center justify-evenly  h-full ">
               <aside className="flex flex-col  justify-center items-center h-[33%] border-b-2 border-gray-600 w-full text-center ">
