@@ -50,7 +50,7 @@ export const Projects = () => {
               {ProjectsList &&
                 ProjectsList.map((item) => (
                   <SwiperSlide key={item.titulo}>
-                    <article className="mb-12   md:mb-16 flex  flex-col mx-auto   bg-purple-900/70 border-4 rounded-lg border-accent/60 p-3">
+                    <article className="mb-12  md:mb-16 flex  flex-col mx-auto   bg-purple-900/70 border-4 rounded-lg border-accent/60 p-3">
                       <header className="h-[20vh]">
                         <img
                           className="w-full h-[20vh] rounded-lg"
@@ -58,16 +58,16 @@ export const Projects = () => {
                           src={item.preview}
                         />
                       </header>
-                      <main className="max-h-[200px]  ">
-                        <h1 className="text-[20px]   lg:text-[25px]  p-2 mt-3 font-primary leading-8 font-semibold text-accent  ">
+                      <main className="max-h-[200px] ">
+                        <h1 className="text-[20px] md:text-[25px]  p-2 mt-3 font-primary leading-8 font-semibold text-accent  ">
                           {item.titulo}
                         </h1>
-                        <p className=" leading-[1.2rem] lg:leading-[2rem]  p-2 h-[200px] text-[17px]  lg:text-[20px] mt-2 font-secondary text-white">
+                        <p className=" leading-[1.2rem] lg:leading-[2rem]  p-2 text-[17px]  dm:text-[20px] mt-2 font-secondary text-white">
                           {item.descripcion}
                         </p>
                       </main>
                       <footer className="mt-2  md:mt-5">
-                        <div className=" h-[40%]  flex gap-2 flex-wrap">
+                        <div className=" flex gap-2 flex-wrap">
                           {item.tecnologias.map((item) => (
                             <TecnologiesComponent key={item} item={item} />
                           ))}
