@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Rajdhani:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Rajdhani:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --border-color: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  scroll-behavior: smooth;
+  background-color: #222;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b809c3;
+  border-radius: 3px;
+}
+
+.btn {
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  transition: all 1s;
+}
+
+.btn:hover {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
+  transition: all 1s;
+}
+
+.logo-btn {
+  width: 100%;
+  font-size: 2.5rem;
+}
+
+.logo-btn:hover {
+  scale: 120%;
+  transition: all 300ms;
+}
+
+.gradient,
+.active {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
+  transition: all 500ms;
+}
+
+.active {
+  color: #fff;
+  border-radius: 100%;
+}
+
+.nav-log {
+  width: 50%;
+  height: 120px;
+  transition: all 1s;
+}
+
+.scroller {
+  margin: auto;
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+.scroller__inner {
+  padding-block: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+@layer base {
+  body {
+    @apply text-lg leading-8 text-white;
+  }
+  .h2 {
+    @apply text-[32px] mb-6 tracking-[10%] uppercase;
+  }
+  .h3 {
+    @apply font-semibold text-[26px] mb-6 leading-[46px];
+  }
+  .btn {
+    @apply rounded-full  text-white font-medium;
+  }
+  .btn-sm {
+    @apply h-[58px] px-8 text-lg;
+  }
+  .btn-lg {
+    @apply h-[60px] px-12 text-2xl;
+  }
+  .btn-link {
+    @apply text-base;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold  hover:from-[#FF56F6] hover:to-[#42A6E3] transition-all duration-500;
+  }
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+}
