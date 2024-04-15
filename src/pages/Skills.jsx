@@ -7,10 +7,10 @@ export const Skills = () => {
     <>
       <section
         id="Skills"
-        className="mx-auto min-h-[85vh] lg:min-h-[78vh] w-full "
+        className="mx-auto flex justify-center items-center min-h-[85vh] lg:min-h-[78vh] w-full "
       >
-        <div className="flex justify-center items-center  h-screen">
-          <aside className=" w-[90%] lg:w-[40%] ">
+        <div className="flex justify-center  items-center w-[65%] ">
+          <aside className="w-[100%]     md:w-[60%] h-full ">
             <motion.div
               variants={fadeIn("right", 0.3)}
               initial="hidden"
@@ -33,11 +33,11 @@ export const Skills = () => {
                   Egresado como Ingeniero Civil Informático en la Universidad de
                   Tarapacá, Iquique.
                 </p>
-                <p className="text-[30px] mt-2 text-accent animate-wiggle animate-infinite animate-duration-[2000ms] animate-ease-linear">
+                <p className="hidden lg:inline text-center lg:text-left text-[30px] mt-2 text-accent animate-wiggle animate-infinite animate-duration-[2000ms] animate-ease-linear">
                   📍
                 </p>
               </div>
-              <ul className="pt-5 font-secondary leading-7 text-left text-gray-300 text-[25px] lg:text-[25px] lg:leading-8">
+              <ul className=" pt-2 lg:pt-5 font-secondary leading-5 text-center   lg:text-left text-gray-300 text-[20px] lg:text-[25px] lg:leading-8">
                 <li>
                   Actualmente ando en busca de mi primer empleo con interés en
                   el
@@ -62,7 +62,7 @@ export const Skills = () => {
               </ul>
             </motion.div>
           </aside>
-          <aside className="hidden lg:inline w-[25%]">
+          <aside className="hidden lg:inline w-[40%]">
             <motion.div
               variants={fadeIn("left", 0.3)}
               initial="hidden"

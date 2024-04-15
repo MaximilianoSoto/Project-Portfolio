@@ -21,7 +21,7 @@ export const TecnologiesComponent = ({ item }) => {
         className="text-[10px]  md:text-xl "
       >
         <div className=" h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 ">
-          <ImHtmlFive className="text-orange-600 p-4 text-[75px]  " />
+          <ImHtmlFive className="text-orange-600 p-4 text-[55px]  " />
         </div>
       </Tooltip>
     );
@@ -36,7 +36,7 @@ export const TecnologiesComponent = ({ item }) => {
         className="text-2xl"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 ">
-          <DiCss3 className="text-cyan-500  p-4 text-[75px] " />
+          <DiCss3 className="text-cyan-500  p-4 text-[55px] " />
         </div>
       </Tooltip>
     );
@@ -51,7 +51,7 @@ export const TecnologiesComponent = ({ item }) => {
         className="text-2xl"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 ">
-          <DiJsBadge className="text-amber-600 p-4 text-[75px] " />
+          <DiJsBadge className="text-amber-600 p-4 text-[55px] " />
         </div>
       </Tooltip>
     );
@@ -66,7 +66,7 @@ export const TecnologiesComponent = ({ item }) => {
         className="text-2xl"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
-          <SiTailwindcss className="text-cyan-500 p-4 text-[75px] " />
+          <SiTailwindcss className="text-cyan-500 p-4 text-[55px] " />
         </div>
       </Tooltip>
     );
@@ -81,7 +81,7 @@ export const TecnologiesComponent = ({ item }) => {
         className="text-2xl"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
-          <BiLogoReact className="text-cyan-500 p-4 text-[75px]" />
+          <BiLogoReact className="text-cyan-500 p-4 text-[55px]" />
         </div>
       </Tooltip>
     );
@@ -96,7 +96,7 @@ export const TecnologiesComponent = ({ item }) => {
         className="text-2xl"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
-          <BiLogoAngular className=" text-red-600 p-4 text-[75px]" />
+          <BiLogoAngular className=" text-red-600 p-4 text-[55px]" />
         </div>
       </Tooltip>
     );
@@ -111,7 +111,7 @@ export const TecnologiesComponent = ({ item }) => {
         className="text-2xl"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
-          <FaNodeJs className="text-green-600 p-4 text-[75px] " />
+          <FaNodeJs className="text-green-600 p-4 text-[55px] " />
         </div>
       </Tooltip>
     );
@@ -126,7 +126,7 @@ export const TecnologiesComponent = ({ item }) => {
         className="text-2xl"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
-          <BsGit className="text-orange-900 p-4 text-[75px] " />
+          <BsGit className="text-orange-900 p-4 text-[55px] " />
         </div>
       </Tooltip>
     );
@@ -141,7 +141,7 @@ export const TecnologiesComponent = ({ item }) => {
         className="text-2xl"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
-          <SiMicrosoftsqlserver className="text-red-600 p-4 text-[75px] " />
+          <SiMicrosoftsqlserver className="text-red-600 p-4 text-[55px] " />
         </div>
       </Tooltip>
     );
@@ -156,7 +156,7 @@ export const TecnologiesComponent = ({ item }) => {
         className="text-2xl"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
-          <BiLogoBootstrap className="text-[75px] p-4 text-purple-600" />
+          <BiLogoBootstrap className="text-[55px] p-4 text-purple-600" />
         </div>
       </Tooltip>
     );

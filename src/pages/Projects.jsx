@@ -28,11 +28,11 @@ export const Projects = () => {
           <h1 className=" md:text-[35px] font-semibold leading-[0.8]  font-primary  text-white text-center">
             MIS PROYECTOS
           </h1>
-          <div className="py-10">
+          <div className="pt-5">
             <Swiper
               breakpoints={{
                 340: {
-                  slidesPerView: 2,
+                  slidesPerView: 1,
                   spaceBetween: 15,
                 },
                 700: {
@@ -45,12 +45,12 @@ export const Projects = () => {
                 clickable: true,
               }}
               modules={[FreeMode, Pagination]}
-              className="max-w-[90%] lg:max-w-[100%]  "
+              className="max-w-[100%] "
             >
               {ProjectsList &&
                 ProjectsList.map((item) => (
                   <SwiperSlide key={item.titulo}>
-                    <article className="mb-20 flex gap-2 flex-col mx-auto h-[55vh]  bg-purple-900/70 border-4 rounded-lg border-accent/60 p-3">
+                    <article className="mb-12   md:mb-16 flex  flex-col mx-auto  lg:h-[50vh]  bg-purple-900/70 border-4 rounded-lg border-accent/60 p-3">
                       <header className="h-[20vh]">
                         <img
                           className="w-full h-[20vh] rounded-lg"
@@ -58,26 +58,26 @@ export const Projects = () => {
                           src={item.preview}
                         />
                       </header>
-                      <main className="h-[400px]">
-                        <h1 className="text-[35px] h-[70px] p-2 mt-3 font-primary leading-8 font-semibold text-accent  ">
+                      <main className=" h-[220px]  md:h-[250px]  ">
+                        <h1 className="text-[25px]   lg:text-[30px] h-[70px] p-2 mt-3 font-primary leading-8 font-semibold text-accent  ">
                           {item.titulo}
                         </h1>
-                        <p className=" leading-[2rem]  p-2 h-[200px] text-[30px] mt-2 font-secondary text-white">
+                        <p className=" leading-[1.2rem] lg:leading-[2rem]  p-2 h-[200px] text-[20px]  lg:text-[25px] mt-2 font-secondary text-white">
                           {item.descripcion}
                         </p>
                       </main>
-                      <footer className="h-[35%]">
+                      <footer className="mt-2 h-[35%]">
                         <div className=" h-[40%]  flex gap-2 flex-wrap">
                           {item.tecnologias.map((item) => (
                             <TecnologiesComponent key={item} item={item} />
                           ))}
                         </div>
-                        <div className="mt-10 mx-auto">
-                          <div className="flex gap-5 ">
-                            <Button className="flex items-center btn ">
+                        <div className="mt-4 mx-auto">
+                          <div className="flex gap-1  md:gap-5 ">
+                            <Button className="flex items-center btn  ">
                               <a
                                 target="_blank"
-                                className="font-secondary text-2xl "
+                                className="font-secondary   md:text-2xl "
                               >
                                 Ver Proyecto
                               </a>
@@ -87,7 +87,7 @@ export const Projects = () => {
                               <FaGithub className="w-6 h-4" />
                               <a
                                 target="_blank"
-                                className="font-secondary mt-1 text-2xl "
+                                className="font-secondary mt-1  md:text-2xl "
                               >
                                 GitHub
                               </a>

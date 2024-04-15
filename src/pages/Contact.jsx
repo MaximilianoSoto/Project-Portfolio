@@ -19,17 +19,17 @@ export const Contact = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex justify-start items-center leading-[1.3rem]"
+            className="flex-1 flex justify-start items-center leading-[0.8rem]  md:leading-[1.3rem]"
           >
             <div>
-              <h4 className=" font-primary text-[20px] text-center lg:text-left      lg:text-[25px] uppercase text-accent font-medium  tracking-wide">
+              <h4 className=" font-primary text-[15px] text-center lg:text-left      lg:text-[25px] uppercase text-accent font-medium  tracking-wide">
                 trabajemos juntos!
               </h4>
               <div className="flex items-center">
-                <h2 className="font-primary text-[35px]    lg:text-[60px]  pt-5 mb-12">
+                <h2 className="font-primary text-[30px]    lg:text-[60px]  pt-5 mb-12">
                   Contáctame
                 </h2>
-                <span className=" text-[40px] pl-1 mb-5 animate-wiggle animate-infinite">
+                <span className="text-[20px]   md:text-[40px] pl-1 mb-5 animate-wiggle animate-infinite">
                   📲
                 </span>
               </div>
@@ -43,9 +43,9 @@ export const Contact = () => {
             className=" border border-accent   md:w-[45%]  rounded-2xl  md:py-[20px]"
           >
             <div className="grid grid-rows-3 w-full divide-y divide-gray-700 px-3 md:px-2 ">
-              <div className="text-center font-primary pt-7 md:text-[25px]">
+              <div className="text-center font-primary pt-7 text-[15px] md:text-[25px]">
                 <div>Correo Electrónico</div>
-                <button className="mx-auto border-[3px] bg-black/50 border-red-700 h-[36px]  px-[20%] lg:px-[65px] hover:bg-red-500 text-[15px] rounded-md mt-10 hover:animate-jump hover:animate-once">
+                <button className="mx-auto border-[3px] bg-black/50 border-red-700 h-[36px]  px-[20%] lg:px-[65px] hover:bg-red-500 text-[10px] md:text-[15px] rounded-md mt-10 hover:animate-jump hover:animate-once">
                   <a
                     target="_blank"
                     className="flex items-center gap-3"
@@ -57,9 +57,9 @@ export const Contact = () => {
                 </button>
               </div>
               <div className=" text-center font-primary pt-2 pb-[60px] md:text-[30px]">
-                <div className="text-center font-primary pt-4 md:text-[25px]">
+                <div className="text-center font-primary pt-4 text-[15px] md:text-[25px]">
                   <div>Mensaje</div>
-                  <button className="border-[3px] bg-black/50 border-green-700  h-[46px] px-[10%]   md:px-[35px] hover:bg-green-500 text-[15px] rounded-md mt-10 hover:animate-jump hover:animate-once">
+                  <button className="border-[3px] bg-black/50 border-green-700  h-[46px] px-[10%]   md:px-[35px] hover:bg-green-500 text-[10px] md:text-[15px] rounded-md mt-10 hover:animate-jump hover:animate-once">
                     <a
                       target="_blank"
                       className="flex items-center gap-3"
@@ -71,9 +71,9 @@ export const Contact = () => {
                   </button>
                 </div>
               </div>
-              <div className="text-center font-primary pt-9 md:text-[25px]">
+              <div className="text-center font-primary pt-9 text-[15px] md:text-[25px]">
                 <div>Curriculum</div>
-                <button className="border-[3px] bg-black/50 border-accent  h-[46px] px-[35px] hover:bg-accent text-[15px] rounded-md mt-10 hover:animate-jump hover:animate-once">
+                <button className="border-[3px] bg-black/50 border-accent  h-[46px] px-[35px] hover:bg-accent text-[10px] md:text-[15px] rounded-md mt-10 hover:animate-jump hover:animate-once">
                   <a
                     target="_blank"
                     className="flex items-center gap-3"

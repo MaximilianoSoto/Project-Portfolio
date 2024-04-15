@@ -111,7 +111,7 @@ export const About = () => {
                 ease: "easeInOut", // tipo de transición
               }}
             >
-              <img src="/images/foto_perfil.png" />
+              <img src="images/foto_perfil.PNG" />
             </motion.div>
           </motion.div>
         </div>
