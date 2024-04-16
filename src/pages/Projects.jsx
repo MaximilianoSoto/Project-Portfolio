@@ -17,7 +17,7 @@ import { FaGithub } from "react-icons/fa";
 export const Projects = () => {
   return (
     <section id="Projects" className=" min-h-[85vh] md:min-h-[90vh]">
-      <div className="w-[90%] p-2 md:p-0 h-screen md:w-[65%] md:pt-[5%] mx-auto  ">
+      <div className="w-[90%] p-2 md:p-0 h-screen md:w-[65%] md:pt-[3%] mx-auto  ">
         <motion.div
           variants={fadeIn("down", 0.3)}
           initial="hidden"
@@ -58,10 +58,10 @@ export const Projects = () => {
                         />
                       </header>
                       <main className="w-full h-[200px] md:h-[250px]">
-                        <h1 className="text-[20px] md:h-[80px]   md:text-[25px] font-primary text-accent">
+                        <h1 className="text-[20px] md:text-[25px] font-primary font-semibold  text-accent ">
                           {item.titulo}
                         </h1>
-                        <p className="text-[15px] md:text-[23px] leading-6 mt-2 font-secondary text-white">
+                        <p className="text-[15px] bg-orange-600 md:h-[120px] md:text-[23px] leading-6 mt-2 font-secondary text-white">
                           {item.descripcion}
                         </p>
                       </main>
@@ -75,7 +75,7 @@ export const Projects = () => {
                           <button className="btn flex items-center p-2 rounded-lg">
                             <a
                               target="_blank"
-                              className="font-secondary   md:text-xl "
+                              className="font-secondary font-semibold   md:text-xl "
                             >
                               Ver Proyecto
                             </a>
@@ -85,7 +85,7 @@ export const Projects = () => {
                             <FaGithub className="w-6 h-4" />
                             <a
                               target="_blank"
-                              className="font-secondary mt-1 md:text-xl "
+                              className="font-secondary font-semibold mt-1 md:text-xl "
                             >
                               GitHub
                             </a>
