@@ -10,22 +10,21 @@ import "swiper/css/free-mode";
 import { FreeMode, Pagination } from "swiper/modules";
 import { ProjectsList } from "../assets/ProjectsList";
 import { TecnologiesComponent } from "../components/TecnologiesComponent";
-import { Button } from "@material-tailwind/react";
-
-import { FaGithub } from "react-icons/fa";
 import { SVG } from "../assets/SVG";
+import { Button } from "@material-tailwind/react";
+import { FaGithub } from "react-icons/fa";
 
 export const Projects = () => {
   return (
     <section id="Projects" className=" min-h-[85vh] md:min-h-[90vh]">
-      <div className="w-[90%] p-2  pt-[20%]  md:p-0  h-screen md:w-[65%] md:pt-[5%] mx-auto  ">
+      <div className="w-[90%] p-2  pt-[20%]  md:p-0  h-screen md:w-[65%] md:pt-[3%] mx-auto  ">
         <motion.div
           variants={fadeIn("down", 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
         >
-          <h1 className=" md:text-[35px] font-semibold leading-[0.8]  font-primary  text-white text-center">
+          <h1 className=" md:text-[30px] font-semibold leading-[0.8]  font-primary  text-white text-center">
             MIS PROYECTOS
           </h1>
           <div className="pt-5">
@@ -50,15 +49,48 @@ export const Projects = () => {
               {ProjectsList &&
                 ProjectsList.map((item) => (
                   <SwiperSlide key={item.titulo}>
-                    <article className="mb-20 border-2 h-[500px]  md:h-[700px] flex flex-col items-center p-2 ">
-                      <header className="border-2 w-full text-center h-[200px] md:h-[250px]">
-                        imagen
+                    <article className="mb-20 border-2 h-[500px]  md:h-[650px] flex flex-col items-center p-2 ">
+                      <header className=" w-full text-center h-[200px] md:h-[250px]">
+                        <img
+                          src={item.preview}
+                          alt="Preview-Img"
+                          className="w-full h-full p-1 rounded-lg"
+                        />
                       </header>
-                      <main className="border-2 w-full text-center h-[200px]   md:h-[250px]">
-                        titulo y descripcion
+                      <main className="  w-full h-[150px] md:h-[250px]">
+                        <h1 className="  md:text-[25px] font-primary text-accent">
+                          {item.titulo}
+                        </h1>
+                        <p className="md:text-[20px] leading-6 mt-2 font-secondary text-white">
+                          {item.descripcion}
+                        </p>
                       </main>
-                      <footer className="border-2 w-full text-center h-[100px] md:h-[200px]">
-                        habilidades y botones
+                      <footer className=" w-full h-[150px] md:h-[200px] flex flex-col justify-around">
+                        <div className=" flex gap-2 flex-wrap">
+                          {item.tecnologias.map((item) => (
+                            <TecnologiesComponent key={item} item={item} />
+                          ))}
+                        </div>
+                        <div className="flex gap-5 ">
+                          <button className="btn flex items-center p-2 rounded-lg">
+                            <a
+                              target="_blank"
+                              className="font-secondary   md:text-xl "
+                            >
+                              Ver Proyecto
+                            </a>
+                            <SVG />
+                          </button>
+                          <button className="btn flex items-center gap-2 p-2 rounded-lg">
+                            <FaGithub className="w-6 h-4" />
+                            <a
+                              target="_blank"
+                              className="font-secondary mt-1 md:text-xl "
+                            >
+                              GitHub
+                            </a>
+                          </button>
+                        </div>
                       </footer>
                     </article>
                   </SwiperSlide>
