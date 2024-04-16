@@ -49,8 +49,8 @@ export const Projects = () => {
               {ProjectsList &&
                 ProjectsList.map((item) => (
                   <SwiperSlide key={item.titulo}>
-                    <article className="mb-20 border-2 h-[500px]  md:h-[650px] flex flex-col items-center p-2 ">
-                      <header className=" w-full text-center h-[200px] md:h-[250px]">
+                    <article className="mb-20 h-[500px]  md:h-[650px] flex flex-col items-center p-2 bg-purple-900/70 border-4 rounded-lg border-accent/60">
+                      <header className="w-full text-center h-[200px] md:h-[250px]">
                         <img
                           src={item.preview}
                           alt="Preview-Img"
@@ -58,10 +58,10 @@ export const Projects = () => {
                         />
                       </header>
                       <main className="  w-full h-[150px] md:h-[250px]">
-                        <h1 className="  md:text-[25px] font-primary text-accent">
+                        <h1 className=" md:h-[50px] bg-orange-300  md:text-[25px] font-primary text-accent">
                           {item.titulo}
                         </h1>
-                        <p className="md:text-[20px] leading-6 mt-2 font-secondary text-white">
+                        <p className="md:text-[23px] leading-6 mt-2 font-secondary text-white">
                           {item.descripcion}
                         </p>
                       </main>
