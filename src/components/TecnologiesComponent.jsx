@@ -18,7 +18,7 @@ export const TecnologiesComponent = ({ item }) => {
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
-        className="text-[10px]  md:text-xl "
+        className="md:text-[15px] "
       >
         <div className=" h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 ">
           <ImHtmlFive className="text-orange-600 p-4 text-[55px]  " />
@@ -33,7 +33,7 @@ export const TecnologiesComponent = ({ item }) => {
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
-        className="text-2xl"
+        className="md:text-[15px]"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 ">
           <DiCss3 className="text-cyan-500  p-4 text-[55px] " />
@@ -48,7 +48,7 @@ export const TecnologiesComponent = ({ item }) => {
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
-        className="text-2xl"
+        className="md:text-[15px]"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 ">
           <DiJsBadge className="text-amber-600 p-4 text-[55px] " />
@@ -63,7 +63,7 @@ export const TecnologiesComponent = ({ item }) => {
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
-        className="text-2xl"
+        className="md:text-[15px]"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
           <SiTailwindcss className="text-cyan-500 p-4 text-[55px] " />
@@ -78,7 +78,7 @@ export const TecnologiesComponent = ({ item }) => {
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
-        className="text-2xl"
+        className="md:text-[15px]"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
           <BiLogoReact className="text-cyan-500 p-4 text-[55px]" />
@@ -93,7 +93,7 @@ export const TecnologiesComponent = ({ item }) => {
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
-        className="text-2xl"
+        className="md:text-[15px]"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
           <BiLogoAngular className=" text-red-600 p-4 text-[55px]" />
@@ -108,7 +108,7 @@ export const TecnologiesComponent = ({ item }) => {
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
-        className="text-2xl"
+        className="md:text-[15px]"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
           <FaNodeJs className="text-green-600 p-4 text-[55px] " />
@@ -123,7 +123,7 @@ export const TecnologiesComponent = ({ item }) => {
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
-        className="text-2xl"
+        className="md:text-[15px]"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
           <BsGit className="text-orange-900 p-4 text-[55px] " />
@@ -138,7 +138,7 @@ export const TecnologiesComponent = ({ item }) => {
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
-        className="text-2xl"
+        className="md:text-[15px]"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
           <SiMicrosoftsqlserver className="text-red-600 p-4 text-[55px] " />
@@ -153,7 +153,7 @@ export const TecnologiesComponent = ({ item }) => {
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
-        className="text-2xl"
+        className="md:text-[15px]"
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
           <BiLogoBootstrap className="text-[55px] p-4 text-purple-600" />

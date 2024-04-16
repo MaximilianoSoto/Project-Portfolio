@@ -11,7 +11,6 @@ import { FreeMode, Pagination } from "swiper/modules";
 import { ProjectsList } from "../assets/ProjectsList";
 import { TecnologiesComponent } from "../components/TecnologiesComponent";
 import { SVG } from "../assets/SVG";
-import { Button } from "@material-tailwind/react";
 import { FaGithub } from "react-icons/fa";
 
 export const Projects = () => {
@@ -61,7 +60,7 @@ export const Projects = () => {
                         <h1 className="text-[20px] md:text-[25px] font-primary font-semibold  text-accent ">
                           {item.titulo}
                         </h1>
-                        <p className="text-[15px] bg-orange-600 md:h-[120px] md:text-[23px] leading-6 mt-2 font-secondary text-white">
+                        <p className="text-[15px] md:h-[120px] md:text-[23px] leading-6 mt-5 font-secondary text-white">
                           {item.descripcion}
                         </p>
                       </main>
@@ -72,7 +71,7 @@ export const Projects = () => {
                           ))}
                         </div>
                         <div className="flex gap-5 ">
-                          <button className="btn flex items-center p-2 rounded-lg">
+                          <button className="btn flex items-center p-2 rounded-lg hover:scale-95">
                             <a
                               target="_blank"
                               className="font-secondary font-semibold   md:text-xl "
@@ -81,7 +80,7 @@ export const Projects = () => {
                             </a>
                             <SVG />
                           </button>
-                          <button className="btn flex items-center gap-2 p-2 rounded-lg">
+                          <button className="btn flex items-center gap-1 p-2 rounded-lg hover:scale-95">
                             <FaGithub className="w-6 h-4" />
                             <a
                               target="_blank"

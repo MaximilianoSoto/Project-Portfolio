@@ -11,7 +11,7 @@ export const ProjectsList = [
       },
       {
         preview: "images/WorldRanks.PNG",
-        titulo: "Aplicación de Ranking Países",
+        titulo: "Ranking de Países",
         descripcion:
           "Aplicacion de ranking de paises en donde se muestra datos estadisticos de cada pais del mundo. Este proyecto fue para practicar el consumo de APi's utilizando react con framework principal.",
         tecnologias: ["html", "css", "javascript", "react"],
