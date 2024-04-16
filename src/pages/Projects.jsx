@@ -54,7 +54,7 @@ export const Projects = () => {
                         <img
                           src={item.preview}
                           alt="Preview-Img"
-                          className="w-full h-full p-1 rounded-lg"
+                          className="w-full h-[150px] md:h-[250px] p-1 rounded-lg"
                         />
                       </header>
                       <main className="w-full h-[200px] md:h-[250px]">
