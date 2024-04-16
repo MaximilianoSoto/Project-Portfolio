@@ -17,7 +17,7 @@ import { FaGithub } from "react-icons/fa";
 export const Projects = () => {
   return (
     <section id="Projects" className=" min-h-[85vh] md:min-h-[90vh]">
-      <div className="w-[90%] p-2 md:p-0  h-screen md:w-[65%] pt-[3%] mx-auto  ">
+      <div className="w-[90%] p-2 md:p-0 h-screen md:w-[65%] md:pt-[5%] mx-auto  ">
         <motion.div
           variants={fadeIn("down", 0.3)}
           initial="hidden"
@@ -49,7 +49,7 @@ export const Projects = () => {
               {ProjectsList &&
                 ProjectsList.map((item) => (
                   <SwiperSlide key={item.titulo}>
-                    <article className="mb-20 h-[500px]  md:h-[650px] flex flex-col items-center p-2 bg-purple-900/70 border-4 rounded-lg border-accent/60">
+                    <article className="mb-20 h-[500px] md:h-[650px] flex flex-col items-center p-2 bg-purple-900/70 border-4 rounded-lg border-accent/60">
                       <header className="w-full text-center h-[150px] md:h-[250px]">
                         <img
                           src={item.preview}
@@ -58,14 +58,14 @@ export const Projects = () => {
                         />
                       </header>
                       <main className="w-full h-[200px] md:h-[250px]">
-                        <h1 className="text-[20px] md:h-[80px] bg-orange-300  md:text-[25px] font-primary text-accent">
+                        <h1 className="text-[20px] md:h-[80px]   md:text-[25px] font-primary text-accent">
                           {item.titulo}
                         </h1>
                         <p className="text-[15px] md:text-[23px] leading-6 mt-2 font-secondary text-white">
                           {item.descripcion}
                         </p>
                       </main>
-                      <footer className=" w-full h-[150px] md:h-[200px] flex flex-col justify-around">
+                      <footer className="w-full h-[150px] md:h-[200px] flex flex-col justify-around">
                         <div className=" flex gap-2 flex-wrap">
                           {item.tecnologias.map((item) => (
                             <TecnologiesComponent key={item} item={item} />
