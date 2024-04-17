@@ -16,7 +16,7 @@ export const Skills = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
-              className="flex flex-col gap-y-5 border-accent border-t-4 border-b-4 text-left  md:py-10  "
+              className="flex flex-col gap-y-5 border-accent border-t-4 border-b-4 text-left  md:py-12  "
             >
               <h1 className="font-primary text-[20px]  text-center lg:text-left lg:text-[35px] font-semibold text-accent">
                 <TypeAnimation
@@ -28,12 +28,12 @@ export const Skills = () => {
                 />
               </h1>
 
-              <div className=" flex items-center gap-x-1 font-secondary leading-5 font-semibold pt-1 text-center md:text-left  md:pt-3 lg:text-[25px] lg:leading-[3rem]   ">
+              <div className=" flex items-center gap-x-1 font-secondary leading-5 font-semibold pt-1 text-center md:text-left  md:pt-3 lg:text-[20px] lg:leading-[1.5rem]   ">
                 <p>
                   Egresado como Ingeniero Civil Informático en la Universidad de
                   Tarapacá, Iquique.
                 </p>
-                <p className="hidden lg:inline text-center lg:text-left text-[25px] mt-2 text-accent animate-wiggle animate-infinite animate-duration-[2000ms] animate-ease-linear">
+                <p className="hidden lg:inline text-center lg:text-left text-[30px] mt-2 text-accent animate-wiggle animate-infinite animate-duration-[2000ms] animate-ease-linear">
                   📍
                 </p>
               </div>
