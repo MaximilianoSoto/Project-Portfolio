@@ -16,7 +16,7 @@ export const Skills = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
-              className="flex flex-col gap-y-5 border-accent border-t-4 border-b-4 text-left  md:py-12  "
+              className="flex flex-col gap-y-5 border-accent border-t-4 border-b-4 text-left  md:py-[58px]  "
             >
               <h1 className="font-primary text-[20px]  text-center lg:text-left lg:text-[35px] font-semibold text-accent">
                 <TypeAnimation
