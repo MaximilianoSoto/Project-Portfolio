@@ -68,7 +68,7 @@ export const Skills = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
-              className="hidden  lg:inline  w-[25%]  p-16  mx-auto"
+              className="hidden  lg:inline  w-[25%]  p-12  mx-auto"
             >
               <img
                 src="images/MAXI_FORMAL.PNG"
