@@ -9,7 +9,7 @@ export const Skills = () => {
         id="Skills"
         className="mx-auto flex justify-center items-center min-h-[85vh] lg:min-h-[78vh] w-full "
       >
-        <div className="flex justify-center items-center gap-x-5 w-[65%] ">
+        <div className="flex justify-center items-center gap-x-10 w-[65%] ">
           <aside className=" w-[100%] md:w-[60%] h-full ">
             <motion.div
               variants={fadeIn("right", 0.3)}
@@ -68,7 +68,7 @@ export const Skills = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
-              className="hidden  lg:inline  w-[25%]  p-10  mx-auto"
+              className="hidden  lg:inline  w-[25%]  p-16  mx-auto"
             >
               <img
                 src="images/MAXI_FORMAL.PNG"
