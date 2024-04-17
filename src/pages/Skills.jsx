@@ -10,13 +10,13 @@ export const Skills = () => {
         className="mx-auto flex justify-center items-center min-h-[85vh] lg:min-h-[78vh] w-full "
       >
         <div className="flex justify-center items-center gap-x-5 w-[65%] ">
-          <aside className="w-[100%] md:w-[60%] h-full ">
+          <aside className=" w-[100%] md:w-[60%] h-full ">
             <motion.div
               variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
-              className="flex flex-col gap-y-5 border-accent border-t-4 border-b-4 text-left  md:py-[58px]  "
+              className="flex flex-col gap-y-5 border-accent border-t-4 border-b-4 text-left  md:py-[70px]  "
             >
               <h1 className="font-primary text-[20px]  text-center lg:text-left lg:text-[35px] font-semibold text-accent">
                 <TypeAnimation
