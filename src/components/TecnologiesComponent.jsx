@@ -20,7 +20,7 @@ export const TecnologiesComponent = ({ item }) => {
         }}
         className="md:text-[15px] "
       >
-        <div className=" h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 ">
+        <div className=" h-fit rounded-full bg-gray-900  hover:bg-white/80  hover:scale-110 duration-300 ">
           <ImHtmlFive className="text-orange-600 p-4 text-[55px]  " />
         </div>
       </Tooltip>
@@ -35,7 +35,7 @@ export const TecnologiesComponent = ({ item }) => {
         }}
         className="md:text-[15px]"
       >
-        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 ">
+        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300 ">
           <DiCss3 className="text-cyan-500  p-4 text-[55px] " />
         </div>
       </Tooltip>
@@ -50,7 +50,7 @@ export const TecnologiesComponent = ({ item }) => {
         }}
         className="md:text-[15px]"
       >
-        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 ">
+        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300 ">
           <DiJsBadge className="text-amber-600 p-4 text-[55px] " />
         </div>
       </Tooltip>
@@ -65,7 +65,7 @@ export const TecnologiesComponent = ({ item }) => {
         }}
         className="md:text-[15px]"
       >
-        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
+        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300">
           <SiTailwindcss className="text-cyan-500 p-4 text-[55px] " />
         </div>
       </Tooltip>
@@ -80,7 +80,7 @@ export const TecnologiesComponent = ({ item }) => {
         }}
         className="md:text-[15px]"
       >
-        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
+        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300">
           <BiLogoReact className="text-cyan-500 p-4 text-[55px]" />
         </div>
       </Tooltip>
@@ -95,7 +95,7 @@ export const TecnologiesComponent = ({ item }) => {
         }}
         className="md:text-[15px]"
       >
-        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
+        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300">
           <BiLogoAngular className=" text-red-600 p-4 text-[55px]" />
         </div>
       </Tooltip>
@@ -110,7 +110,7 @@ export const TecnologiesComponent = ({ item }) => {
         }}
         className="md:text-[15px]"
       >
-        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
+        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300">
           <FaNodeJs className="text-green-600 p-4 text-[55px] " />
         </div>
       </Tooltip>
@@ -125,7 +125,7 @@ export const TecnologiesComponent = ({ item }) => {
         }}
         className="md:text-[15px]"
       >
-        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
+        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300">
           <BsGit className="text-orange-900 p-4 text-[55px] " />
         </div>
       </Tooltip>
@@ -140,7 +140,7 @@ export const TecnologiesComponent = ({ item }) => {
         }}
         className="md:text-[15px]"
       >
-        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
+        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300">
           <SiMicrosoftsqlserver className="text-red-600 p-4 text-[55px] " />
         </div>
       </Tooltip>
@@ -155,7 +155,7 @@ export const TecnologiesComponent = ({ item }) => {
         }}
         className="md:text-[15px]"
       >
-        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80">
+        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300">
           <BiLogoBootstrap className="text-[55px] p-4 text-purple-600" />
         </div>
       </Tooltip>

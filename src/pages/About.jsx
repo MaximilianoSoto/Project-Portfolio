@@ -13,7 +13,7 @@ export const About = () => {
       <div className="w-full ">
         <Header />
         <div className=" flex flex-col-reverse items-center justify-end h-screen md:h-fit  lg:flex-row  md:justify-center mx-auto mt-[8%]  ">
-          <div className="md:w-[65%] lg:w-[45%] py-10 text-center lg:text-left justify-center ">
+          <div className="md:w-[65%] lg:w-[45%]  text-center lg:text-left flex flex-col   ">
             <motion.h1
               variants={fadeIn("up", 0.3)}
               initial="hidden"
@@ -28,7 +28,7 @@ export const About = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex mx-auto lg:inline font-secondary font-semibold uppercase leading-10 lg:mb-6 text-[30px] lg:text-[30px] lg:mt-0 lg:leading-[1]"
+              className="lg:inline font-secondary font-semibold uppercase leading-10 text-[30px] lg:text-[30px] lg:mt-0 lg:leading-[1]"
             >
               <div className=" flex mx-auto text-white ">
                 <p className="hidden lg:inline">Hola!</p>
@@ -57,9 +57,9 @@ export const About = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mt-3 mb-10 "
+              className="mt-6"
             >
-              <button className="btn px-5  lg:btn-sm font-primary  hover:scale-95 font-normal text-[15px]">
+              <button className="btn px-5 lg:btn-sm font-primary  hover:scale-95 font-normal text-[15px]">
                 <a target="_blank" href="/files/CV_2024.pdf">
                   Ver mi CV
                 </a>
@@ -71,7 +71,7 @@ export const About = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex gap-x-5   md:gap-x-9 max-w-max mx-auto lg:mx-0"
+              className="flex md:mt-6 gap-x-5 md:gap-x-9 max-w-max mx-auto lg:mx-0 "
             >
               <a
                 className="hover:text-accent"

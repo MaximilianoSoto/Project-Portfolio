@@ -47,7 +47,7 @@ export const Contact = () => {
                 <div className="md:text-[25px] font-primary">
                   Correo Electrónico
                 </div>
-                <button className="mt-1 md:mt-5 mx-auto border-[3px] bg-black/50 border-red-700 h-[36px]  px-[40px] lg:px-[65px] hover:bg-red-500 text-[10px] md:text-[20px] rounded-md  hover:animate-jump hover:animate-once">
+                <button className="mt-1 md:mt-5 mx-auto border-[3px] bg-black/50 border-red-700 h-[40px]  px-[40px] lg:px-[55px] hover:bg-red-500 text-[10px] md:text-[20px] rounded-md  hover:animate-jump hover:animate-once">
                   <a
                     target="_blank"
                     className="font-primary flex items-center gap-3"
@@ -61,7 +61,7 @@ export const Contact = () => {
               <aside className="flex justify-center items-center h-[33%] border-b-2 text-center w-full border-gray-600">
                 <div className="text-center font-primary pt-4 text-[15px] md:text-[25px]">
                   <div>Mensaje</div>
-                  <button className="mt-1 md:mt-5 border-[3px] bg-black/50 border-green-700  h-[46px] mx-auto px-[20px]  md:px-[35px] hover:bg-green-500 text-[10px] md:text-[15px] rounded-md hover:animate-jump hover:animate-once">
+                  <button className="mt-1 md:mt-5 border-[3px] bg-black/50 border-green-700  h-[46px] mx-auto px-[20px] md:px-[45px] hover:bg-green-500 text-[10px] md:text-[15px] rounded-md hover:animate-jump hover:animate-once">
                     <a
                       target="_blank"
                       className="flex items-center gap-3"
@@ -75,7 +75,7 @@ export const Contact = () => {
               </aside>
               <aside className="flex flex-col  justify-center items-center h-[33%] ">
                 <div className="md:text-[25px] font-primar">Curriculum</div>
-                <button className="mt-1 md:mt-5 border-[3px] bg-black/50 border-accent h-[46px] px-[35px] hover:bg-accent text-[10px] md:text-[15px] rounded-md  hover:animate-jump hover:animate-once">
+                <button className="mt-1 md:mt-5 border-[3px] bg-black/50 border-accent h-[46px] px-[20px]  md:px-[45px] hover:bg-accent text-[10px] md:text-[15px] rounded-md  hover:animate-jump hover:animate-once">
                   <a
                     target="_blank"
                     className="flex items-center gap-3 font-primary "
