@@ -7,19 +7,19 @@ import { Header } from "./Header";
 export const About = () => {
   return (
     <section
-      className=" w-full min-h-[85vh] md:min-h-[78vh] flex flex-col h-screen lg:mr-[200px] "
+      className="flex flex-col w-full min-h-[85vh] h-screen md:min-h-[78vh] lg:mr-[200px] "
       id="home"
     >
       <div className="w-full ">
         <Header />
-        <div className=" flex flex-col-reverse items-center justify-end h-screen md:h-fit  lg:flex-row  md:justify-center mx-auto mt-[8%]  ">
-          <div className="md:w-[65%] lg:w-[45%]  text-center lg:text-left flex flex-col   ">
+        <div className=" flex flex-col-reverse items-center justify-end h-screen mx-auto mt-[8%] md:h-fit md:justify-center lg:flex-row ">
+          <div className=" flex flex-col text-center md:w-[65%] lg:w-[45%] lg:text-left ">
             <motion.h1
               variants={fadeIn("up", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className=" font-primary text-[30px]  lg:text-[55px] font-semibold uppercase leading-[1.2] "
+              className=" font-primary text-[30px] font-semibold uppercase leading-[1.2] lg:text-[55px] "
             >
               MAXIMILIANO <span>SOTO</span>
             </motion.h1>
@@ -28,14 +28,14 @@ export const About = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="lg:inline font-secondary font-semibold uppercase leading-10 text-[30px] lg:text-[30px] lg:mt-0 lg:leading-[1]"
+              className=" font-secondary font-semibold uppercase leading-10 text-[30px] lg:text-[30px] lg:mt-0 lg:inline lg:leading-[1]"
             >
               <div className=" flex mx-auto text-white ">
                 <p className="hidden lg:inline">Hola!</p>
-                <span className="hidden lg:inline animate-wiggle-more animate-infinite animate-ease-linear ">
+                <span className="hidden animate-wiggle-more animate-infinite animate-ease-linear lg:inline  ">
                   👋
                 </span>
-                <p className="hidden lg:inline mr-2">, SOY </p>
+                <p className="hidden mr-2 lg:inline">, SOY </p>
                 <TypeAnimation
                   sequence={[
                     "Ingeniero Civil Informático",
@@ -59,7 +59,7 @@ export const About = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mt-6"
             >
-              <button className="btn px-5 lg:btn-sm font-primary  hover:scale-95 font-normal text-[15px]">
+              <button className="btn px-5 font-primary hover:scale-95 font-normal text-[15px] lg:btn-sm">
                 <a target="_blank" href="/files/CV_2024.pdf">
                   Ver mi CV
                 </a>
@@ -71,7 +71,7 @@ export const About = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex md:mt-6 gap-x-5 md:gap-x-9 max-w-max mx-auto lg:mx-0 "
+              className="flex gap-x-5 max-w-max mx-auto md:gap-x-9 md:mt-6 lg:mx-0 "
             >
               <a
                 className="hover:text-accent"
