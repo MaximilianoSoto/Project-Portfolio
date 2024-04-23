@@ -60,7 +60,7 @@ export const About = () => {
               className="mt-6"
             >
               <button className="btn px-5 font-primary hover:scale-95 font-normal text-[15px] lg:btn-sm">
-                <a target="_blank" href="/files/CV_2024.pdf">
+                <a target="_blank" href="/files/CV - MX2024- HARVARD.pdf">
                   Ver mi CV
                 </a>
               </button>

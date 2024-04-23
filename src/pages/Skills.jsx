@@ -28,18 +28,18 @@ export const Skills = () => {
                 />
               </h1>
 
-              <div className=" flex items-center gap-x-1 font-secondary leading-5 font-semibold pt-1 text-center md:text-left  md:pt-3 lg:text-[20px] lg:leading-[1.5rem]   ">
+              <div className=" flex items-center gap-x-1 font-secondary leading-5 font-semibold pt-1 text-center md:text-left  md:pt-3 lg:text-[25px] lg:leading-[1.5rem]   ">
                 <p>
                   Egresado como Ingeniero Civil Informático en la Universidad de
                   Tarapacá, Iquique.
                 </p>
-                <p className="hidden lg:inline text-center lg:text-left text-[30px] mt-2 text-accent animate-wiggle animate-infinite animate-duration-[2000ms] animate-ease-linear">
+                <p className="hidden lg:inline text-center lg:text-left text-[35px] mt-2 text-accent animate-wiggle animate-infinite animate-duration-[2000ms] animate-ease-linear">
                   📍
                 </p>
               </div>
-              <ul className=" pt-2 lg:pt-5 font-secondary leading-5 text-center lg:text-left text-gray-300 text-[20px] lg:text-[25px] lg:leading-8">
+              <ul className=" pt-2 lg:pt-5 font-secondary leading-4 text-center lg:text-left text-gray-300 text-[20px] lg:text-[25px] lg:leading-8">
                 <li>
-                  Actualmente estoyen busca de mi primer empleo con interés en
+                  Actualmente estoy en busca de mi primer empleo con interés en
                   el
                   <span className="text-accent font-semibold">
                     {" "}

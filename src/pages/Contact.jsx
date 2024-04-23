@@ -79,7 +79,7 @@ export const Contact = () => {
                   <a
                     target="_blank"
                     className="flex items-center gap-3 font-primary "
-                    href="public/files/CV_2024.pdf"
+                    href="/files/CV - MX2024- HARVARD.pdf"
                   >
                     Ver Mi CV
                     <AiOutlineFileDone className="h-[15px] w-[15px]" />
