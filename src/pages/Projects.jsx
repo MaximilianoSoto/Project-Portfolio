@@ -73,6 +73,7 @@ export const Projects = () => {
                         <div className="flex gap-5 ">
                           <button className="btn flex items-center p-2 rounded-lg hover:scale-95">
                             <a
+                              href={item.demo}
                               target="_blank"
                               className="font-secondary font-semibold   md:text-xl "
                             >
@@ -83,6 +84,7 @@ export const Projects = () => {
                           <button className="btn flex items-center gap-1 p-2 rounded-lg hover:scale-95">
                             <FaGithub className="w-6 h-4" />
                             <a
+                              href={item.github}
                               target="_blank"
                               className="font-secondary font-semibold mt-1 md:text-xl "
                             >
