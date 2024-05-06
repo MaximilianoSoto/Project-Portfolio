@@ -57,10 +57,10 @@ export const Projects = () => {
                         />
                       </header>
                       <main className="w-full  md:h-[250px]">
-                        <h1 className="text-[20px] md:text-[25px] md:py-3 font-primary font-semibold  text-accent ">
+                        <h1 className="text-[20px] md:text-[20px] py-3 md:py-0 font-primary font-semibold  text-accent ">
                           {item.titulo}
                         </h1>
-                        <p className="hidden   text-[15px] leading-6 mt-5 font-secondary text-white  md:inline md:h-[120px] md:text-[23px]">
+                        <p className="hidden text-[15px] leading-5  font-secondary text-white  md:inline md:h-[120px] md:text-[20px]">
                           {item.descripcion}
                         </p>
                       </main>
