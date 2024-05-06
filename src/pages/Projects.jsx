@@ -48,7 +48,7 @@ export const Projects = () => {
               {ProjectsList &&
                 ProjectsList.map((item) => (
                   <SwiperSlide key={item.titulo}>
-                    <article className="mb-[40px] md:mb-[70px] h-[450px] md:h-[650px] flex flex-col items-center p-2 bg-purple-900/70 border-4 rounded-lg border-accent/60">
+                    <article className="mb-[40px] md:mb-[70px] h-[450px] md:h-[620px] flex flex-col items-center p-2 md:px-4 bg-purple-900/70 border-4 rounded-lg border-accent/60">
                       <header className="w-full text-center h-[250px] md:h-[250px]">
                         <img
                           src={item.preview}
@@ -56,11 +56,11 @@ export const Projects = () => {
                           className="w-full h-[250px] md:h-[250px] p-1 rounded-lg"
                         />
                       </header>
-                      <main className="w-full  md:h-[250px]">
-                        <h1 className="text-[20px] md:text-[25px] font-primary font-semibold  text-accent ">
+                      <main className="w-full    md:h-[250px]">
+                        <h1 className="text-[20px] md:text-[25px] md:py-3 font-primary font-semibold  text-accent ">
                           {item.titulo}
                         </h1>
-                        <p className="bg-orange-600  hidden text-[15px] md:h-[120px] md:text-[23px] leading-6 mt-5 font-secondary text-white">
+                        <p className="hidden   text-[15px] leading-6 mt-5 font-secondary text-white  md:inline md:h-[120px] md:text-[23px]">
                           {item.descripcion}
                         </p>
                       </main>
