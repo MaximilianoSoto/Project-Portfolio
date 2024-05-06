@@ -18,7 +18,9 @@ export const ShowSkills = () => {
               <h1 className="font-primary text-[30px] md:text-[45px] pb-3   md:pb-[5rem]">
                 Habilidades
               </h1>
-              <h2 className="font-secondary text-[35px] py-5">Front-end</h2>
+              <h2 className="font-secondary text-[30px] md:text-[35px] py-5">
+                Front-end
+              </h2>
               <TechCarousel
                 lista={[
                   "html",
@@ -30,8 +32,10 @@ export const ShowSkills = () => {
                   "nodejs",
                 ]}
               />
-              <h2 className="font-secondary text-[35px] py-5 mt-5">Otros</h2>
-              <TechCarousel lista={["angular", "sqlserver", "git"]} />
+              <h2 className="font-secondary text-[30px] md:text-[35px] py-5 mt-5">
+                Otros
+              </h2>
+              <TechCarousel lista={["angular", "sqlserver", "git", "mysql"]} />
             </div>
           </motion.div>
         </div>

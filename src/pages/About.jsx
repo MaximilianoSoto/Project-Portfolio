@@ -12,8 +12,8 @@ export const About = () => {
     >
       <div className="w-full ">
         <Header />
-        <div className=" flex flex-col-reverse items-center justify-end h-screen mx-auto mt-[8%] md:h-fit md:justify-center lg:flex-row ">
-          <div className=" flex flex-col text-center md:w-[65%] lg:w-[45%] lg:text-left ">
+        <div className=" flex flex-col-reverse items-center justify-end h-screen mx-auto gap-10 md:gap-0  md:mt-[7%] md:h-fit md:justify-center lg:flex-row ">
+          <div className="flex flex-col text-center md:w-[65%] lg:w-[45%] lg:text-left ">
             <motion.h1
               variants={fadeIn("up", 0.3)}
               initial="hidden"
@@ -28,7 +28,7 @@ export const About = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className=" font-secondary font-semibold uppercase leading-10 text-[30px] lg:text-[30px] lg:mt-0 lg:inline lg:leading-[1]"
+              className=" font-secondary font-semibold uppercase leading-10 mx-auto md:mx-0 text-[25px] lg:text-[30px] lg:mt-0 lg:inline lg:leading-[1]"
             >
               <div className=" flex mx-auto text-white ">
                 <p className="hidden lg:inline">Hola!</p>
@@ -39,14 +39,14 @@ export const About = () => {
                 <TypeAnimation
                   sequence={[
                     "Ingeniero Civil Informático",
-                    3000,
+                    6000,
                     "Desarrollador Front-end",
-                    3000,
+                    6000,
                     "Software Developer",
-                    3000,
+                    6000,
                   ]}
                   speed={50}
-                  className="text-accent "
+                  className="text-accent"
                   wrapper="span"
                   repeat={Infinity}
                 />
@@ -71,7 +71,7 @@ export const About = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex gap-x-5 max-w-max mx-auto md:gap-x-9 md:mt-6 lg:mx-0 "
+              className="flex gap-x-5 max-w-max mx-auto md:gap-x-9 mt-6 lg:mx-0 "
             >
               <a
                 className="hover:text-accent"

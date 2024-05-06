@@ -3,7 +3,7 @@ export const ProjectsList = [
         preview: "images/captura de hospital.PNG",
         titulo: "Proyecto Memo-Suplencia",
         descripcion:
-          "Sistema web realizado como apoyo para el área de RRHH del hospital regional de Iquique, Dr Ernesto Torres Galdames. Este sistema fue serelizado de forma autodidacta para mi segunda practica profesional.",
+          "Sistema web realizado como apoyo para el área de RRHH del hospital regional de Iquique, Dr Ernesto Torres Galdames. Este sistema fue se rezado de forma autodidacta para mi segunda practica profesional.",
         tecnologias: ["html", "css", "javascript", "tailwind"],
         demo: "https://proyecto-memo-suplencia-ii.netlify.app",
         github:

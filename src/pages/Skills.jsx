@@ -16,7 +16,7 @@ export const Skills = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
-              className="flex flex-col gap-y-5 border-accent border-t-4 border-b-4 text-left  md:py-[70px]  "
+              className="flex flex-col gap-y-5 border-accent border-t-4 border-b-4 text-left py-4 md:py-[70px]  "
             >
               <h1 className="font-primary text-[20px]  text-center lg:text-left lg:text-[35px] font-semibold text-accent">
                 <TypeAnimation
@@ -28,7 +28,7 @@ export const Skills = () => {
                 />
               </h1>
 
-              <div className=" flex items-center gap-x-1 font-secondary leading-5 font-semibold pt-1 text-center md:text-left  md:pt-3 lg:text-[25px] lg:leading-[1.5rem]   ">
+              <div className=" flex items-center gap-x-1 font-secondary leading-5 font-semibold pt-1  md:text-left  md:pt-3 lg:text-[25px] lg:leading-[1.5rem]   ">
                 <p>
                   Egresado como Ingeniero Civil Informático en la Universidad de
                   Tarapacá, Iquique.
@@ -37,7 +37,7 @@ export const Skills = () => {
                   📍
                 </p>
               </div>
-              <ul className=" pt-2 lg:pt-5 font-secondary leading-4 text-center lg:text-left text-gray-300 text-[20px] lg:text-[25px] lg:leading-8">
+              <ul className=" pt-2 lg:pt-5 font-secondary leading-5 lg:text-left text-gray-300 text-[20px] lg:text-[25px] lg:leading-8">
                 <li>
                   Actualmente estoy en busca de mi primer empleo con interés en
                   el
@@ -48,7 +48,7 @@ export const Skills = () => {
                   , me considero un proactivo desarrollador web con habilidades
                   básicas y una gran pasión por el mundo del desarrollo.
                 </li>
-
+                <br />
                 <li className="lg:pt-5">
                   Aunque cuento con conocimientos fundamentales en el área,
                   estoy

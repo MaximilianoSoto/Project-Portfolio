@@ -6,6 +6,7 @@ import { BiLogoReact, BiLogoAngular } from "react-icons/bi";
 import { FaNodeJs } from "react-icons/fa";
 import { BsGit } from "react-icons/bs";
 import { BiLogoBootstrap } from "react-icons/bi";
+import { GrMysql } from "react-icons/gr";
 
 import { Tooltip } from "@material-tailwind/react";
 
@@ -157,6 +158,21 @@ export const TecnologiesComponent = ({ item }) => {
       >
         <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300">
           <BiLogoBootstrap className="text-[55px] p-4 text-purple-600" />
+        </div>
+      </Tooltip>
+    );
+  } else if (item == "mysql") {
+    return (
+      <Tooltip
+        content="MySQL"
+        animate={{
+          mount: { scale: 1, y: 0 },
+          unmount: { scale: 0, y: 25 },
+        }}
+        className="md:text-[15px]"
+      >
+        <div className="h-fit rounded-full bg-gray-900 hover:scale-105 hover:bg-white/80 duration-300">
+          <GrMysql className="text-blue-600 p-4 text-[55px] " />
         </div>
       </Tooltip>
     );

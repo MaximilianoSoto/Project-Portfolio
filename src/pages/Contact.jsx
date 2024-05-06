@@ -10,9 +10,9 @@ export const Contact = () => {
   return (
     <section
       id="Contact"
-      className=" min-h-[90vh]  md:min-h-[78vh] flex justify-start items-center md:items-center  h-screen pt-3 md:pt-0 "
+      className=" min-h-[90vh]  md:min-h-[78vh] flex justify-start  md:items-center  h-screen pt-[30%] md:pt-[0%]"
     >
-      <div className="w-[90%]  lg:w-[65%] mx-auto ">
+      <div className="w-[90%]  lg:w-[65%] mx-auto  ">
         <div className="flex flex-col  items-center lg:flex-row">
           <motion.div
             variants={fadeIn("right", 0.3)}
@@ -22,11 +22,11 @@ export const Contact = () => {
             className="flex-1 flex justify-start items-center leading-[0.8rem]  md:leading-[1.3rem] "
           >
             <div>
-              <h4 className=" font-primary text-[15px] text-center lg:text-left      lg:text-[25px] uppercase text-accent font-medium  tracking-wide">
+              <h4 className=" font-primary text-[15px] text-center lg:text-left lg:text-[25px] uppercase text-accent font-medium  tracking-wide">
                 trabajemos juntos!
               </h4>
               <div className="flex items-center">
-                <h2 className="font-primary text-[30px]    lg:text-[60px]  pt-5 mb-12">
+                <h2 className="font-primary text-[30px]  lg:text-[60px]  pt-5 mb-12">
                   Contáctame
                 </h2>
                 <span className="text-[20px]   md:text-[40px] pl-1 mb-5 animate-wiggle animate-infinite">

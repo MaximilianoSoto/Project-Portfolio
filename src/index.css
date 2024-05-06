@@ -91,7 +91,7 @@
   padding-block: 0.5rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .scroller[data-animated="true"] {

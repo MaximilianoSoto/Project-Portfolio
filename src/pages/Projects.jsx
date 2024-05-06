@@ -16,14 +16,14 @@ import { FaGithub } from "react-icons/fa";
 export const Projects = () => {
   return (
     <section id="Projects" className=" min-h-[85vh] md:min-h-[90vh]">
-      <div className="w-[90%] p-2 md:p-0 h-screen md:w-[65%] md:pt-[3%] mx-auto  ">
+      <div className="w-[90%] pt-[8%] md:p-0 h-screen md:w-[65%] md:pt-[3%] mx-auto  ">
         <motion.div
           variants={fadeIn("down", 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
         >
-          <h1 className=" md:text-[30px] font-semibold leading-[0.8]  font-primary  text-white text-center">
+          <h1 className="text-[20px]  md:text-[30px] font-semibold leading-[0.8]  font-primary  text-white text-center">
             MIS PROYECTOS
           </h1>
           <div className="pt-5">
@@ -48,29 +48,29 @@ export const Projects = () => {
               {ProjectsList &&
                 ProjectsList.map((item) => (
                   <SwiperSlide key={item.titulo}>
-                    <article className="mb-[70px] h-[500px] md:h-[650px] flex flex-col items-center p-2 bg-purple-900/70 border-4 rounded-lg border-accent/60">
-                      <header className="w-full text-center h-[150px] md:h-[250px]">
+                    <article className="mb-[40px] md:mb-[70px] h-[450px] md:h-[650px] flex flex-col items-center p-2 bg-purple-900/70 border-4 rounded-lg border-accent/60">
+                      <header className="w-full text-center h-[250px] md:h-[250px]">
                         <img
                           src={item.preview}
                           alt="Preview-Img"
-                          className="w-full h-[150px] md:h-[250px] p-1 rounded-lg"
+                          className="w-full h-[250px] md:h-[250px] p-1 rounded-lg"
                         />
                       </header>
-                      <main className="w-full h-[200px] md:h-[250px]">
+                      <main className="w-full  md:h-[250px]">
                         <h1 className="text-[20px] md:text-[25px] font-primary font-semibold  text-accent ">
                           {item.titulo}
                         </h1>
-                        <p className="text-[15px] md:h-[120px] md:text-[23px] leading-6 mt-5 font-secondary text-white">
+                        <p className="bg-orange-600  hidden text-[15px] md:h-[120px] md:text-[23px] leading-6 mt-5 font-secondary text-white">
                           {item.descripcion}
                         </p>
                       </main>
                       <footer className="w-full h-[150px] md:h-[200px] flex flex-col justify-around">
-                        <div className=" flex gap-2 flex-wrap">
+                        <div className="flex gap-2 flex-wrap mx-auto md:mx-0">
                           {item.tecnologias.map((item) => (
                             <TecnologiesComponent key={item} item={item} />
                           ))}
                         </div>
-                        <div className="flex gap-5 ">
+                        <div className="flex gap-5 mx-auto md:mx-0 ">
                           <button className="btn flex items-center p-2 rounded-lg hover:scale-95">
                             <a
                               href={item.demo}
