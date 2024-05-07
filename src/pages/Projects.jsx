@@ -48,7 +48,7 @@ export const Projects = () => {
               {ProjectsList &&
                 ProjectsList.map((item) => (
                   <SwiperSlide key={item.titulo}>
-                    <article className="mb-[40px] md:mb-[70px] h-[450px] md:h-[650px] flex flex-col items-center p-2 md:px-4 bg-purple-900/70 border-4 rounded-lg border-accent/60">
+                    <article className="mb-[40px] md:mb-[60px] h-[450px] md:h-[630px] flex flex-col items-center p-2 md:px-4 bg-purple-900/70 border-4 rounded-lg border-accent/60">
                       <header className="w-full text-center h-[250px] md:h-[250px]">
                         <img
                           src={item.preview}
